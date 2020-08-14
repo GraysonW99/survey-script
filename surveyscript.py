@@ -27,7 +27,6 @@ print("Retrieved %s random recipients!"% len(recipients))
 # Send the email
 s = smtplib.SMTP(host='smtp-mail.outlook.com', port=587)
 s.starttls()
-# TODO prompt for address and password
 print("Please enter your sender address.")
 MY_ADDRESS = input()
 print("Please enter your password.")
