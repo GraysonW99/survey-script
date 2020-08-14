@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # Retrieve and parse list file
-print("Please specify file containing list of potential recipients. Example: testList")
+print("Please specify file containing list of potential recipients. Example: testList.txt")
 emailList = input()
 file1 = open(emailList, 'r')
 lines = file1.readlines()
